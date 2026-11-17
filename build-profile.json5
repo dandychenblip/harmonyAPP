@@ -1,0 +1,51 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_iptv-harmony_Cjdje13446auzmQ5_TJwrASBE2GPdJs-sjw7pPxc2lM=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B51C7E3ACC5EE22E30BC583583BC64739808E51A95F7014E6D3BC7A8ABBADDBE1681905556D41D4",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_iptv-harmony_Cjdje13446auzmQ5_TJwrASBE2GPdJs-sjw7pPxc2lM=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_iptv-harmony_Cjdje13446auzmQ5_TJwrASBE2GPdJs-sjw7pPxc2lM=.p12",
+          "storePassword": "0000001B1F85B1233B72B0B171B17265C2AEDC288D168B5A1A639EF19606D1D7B19E8E13F5585F8DA2E123"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {},
+        "targetSdkVersion": "26.0.0"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

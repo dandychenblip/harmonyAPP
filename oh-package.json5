@@ -1,0 +1,8 @@
+{
+  "modelVersion": "5.0.2",
+  "description": "IPTV 源管家 - 手动维护 IPTV 播放源",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  }
+}
